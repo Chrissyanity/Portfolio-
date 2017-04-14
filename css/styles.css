@@ -54,12 +54,23 @@ body {
 .hamburger {
     width: 35px;
     height: 5px;
-    background-color: #F4DECB;
+    background-color: #B9BCBD;
     margin: 6px 0;
 }
 
 .burgerSpan {
   position: fixed;
+}
+
+.navBttn {
+  position: fixed;
+}
+
+.spanPara {
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+  color: black;
+
 }
 
 .img-centered {
@@ -74,10 +85,17 @@ margin: 0 auto;
 }
 
 .name {
+  font-family: 'Homemade Apple', cursive;
   color: #F4DECB;
   font-size: 56px;
   text-align: center;
-}*/
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.skills {
+  font-family: 'Comfortaa', cursive;
+}
 
 hr.star-light,
 hr.star-primary {
@@ -85,13 +103,13 @@ hr.star-primary {
   border: none;
   border-top: solid 5px;
   text-align: center;
-  max-width: 250px;
+  max-width: 350px;
   margin: 25px auto 30px;
 }
 hr.star-light:after,
 hr.star-primary:after {
   /*content: "\f005";
-  font-family: FontAwesome;*/
+  font-family: FontAwesome;*/*/
   display: inline-block;
   position: relative;
   top: -0.8em;
@@ -129,7 +147,7 @@ header img {
 header .intro-text .name {
   display: block;
   /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 700;
   font-size: 2em;
 }
@@ -166,6 +184,7 @@ footer {
   margin-top: 10px;
   color: #F8EEE7;
   background-color: #94618E;
+  
 
 }
 
@@ -197,4 +216,40 @@ section.contactArea {
   background-color: #49274A;
   color: #F4DECB;
 
+}
+
+.sectionHeader {
+  font-family: 'Homemade Apple', cursive;
+  color: #B1B2B2;
+}
+
+.aboutPara1 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  text-indent: 15px;
+}
+
+.aboutPara2 {
+  color: #F4DECB;
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  padding-left: 38px;
+  text-indent: 15px;
+}
+
+.subPara {
+font-family: 'Homemade Apple', cursive;
+padding-bottom: 15px;
+font-size: 30px;
+}
+
+.projectHeaders {
+  font-family: 'Comfortaa', cursive;
+  color: #94618E;
+}
+
+.projectPara {
+  font-family: 'Comfortaa', cursive;
+  font-size: 14px;
+  color: #49274A;
 }

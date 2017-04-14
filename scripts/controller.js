@@ -2,12 +2,13 @@ var app = angular.module('portfolioModule');
 
 app.controller('portCtrl', function($scope, $location, $anchorScroll) {
 
-$scope.scrollTo = function(scrollLocation){
-  $location.hash('scrollLocation');
-  $anchorScroll(id);
+// Function to have page scroll to section of link thats clicked
+
+$scope.scrollTo = function(id) {
+$anchorScroll(id);
 }
 
-
+// Framework and Library logos
 
 $scope.homeImages = [{
   source: '../images/javascriptIcon.png'
