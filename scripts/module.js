@@ -6,14 +6,14 @@ app.config(function($routeProvider, $locationProvider) {
       controller: 'portCtrl',
       templateUrl: 'views/homepage.html'
     })
-    .when('/projects', {
-      controller: 'portCtrl',
-      templateUrl: 'views/projects.html'
-    })
-    .when('/contact', {
-      controller: 'portCtrl',
-      templateUrl: 'views/contactPage.html'
-    })
+    // .when('/projects', {
+    //   controller: 'portCtrl',
+    //   templateUrl: 'views/projects.html'
+    // })
+    // .when('/contact', {
+    //   controller: 'portCtrl',
+    //   templateUrl: 'views/contactPage.html'
+    // })
 .otherwise({ redirectTo: '/' });
 $locationProvider.hashPrefix('');
 
